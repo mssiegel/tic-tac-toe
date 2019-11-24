@@ -7,6 +7,16 @@
   align-items: center;
 }
 
+.title {
+  color: seagreen;
+  font-size: 32px;
+}
+
+.subtitle {
+  color: grey;
+  font-size: 18px;
+}
+
 .board {
   display: grid;
   grid-template-rows: 100px 100px 100px;

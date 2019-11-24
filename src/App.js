@@ -83,7 +83,8 @@ function App() {
 
   return (
     <div className="App">
-      <h2>Tic Tac Toe</h2>
+      <span className="title">Tic-Tac-Toe</span>
+      <p className="subtitle">Play using a board built with ReactJS</p>
       <div className="board">
         {board.map((square, i) => 
           <div key={i} className="square" onClick={() => addClick(i)}>{square}</div>)}
